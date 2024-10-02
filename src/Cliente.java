@@ -19,6 +19,26 @@ public class Cliente {
                 + ", telefono=" + telefono + "]";
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public String getNombreCompleto() {
+        return NombreCompleto;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
     
     
 }
