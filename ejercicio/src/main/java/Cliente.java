@@ -1,13 +1,24 @@
+import com.opencsv.bean.CsvBindByName;
+
 public class Cliente {
+    @CsvBindByName
     private String id;
-    private String NombreCompleto;
+
+    @CsvBindByName
+    private String nombreCompleto;
+
+    @CsvBindByName
     private String dni;
+
+    @CsvBindByName
     private String email;
+
+    @CsvBindByName
     private String telefono;
 
     public Cliente(String id, String nombreCompleto, String dni, String email, String telefono) {
         this.id = id;
-        NombreCompleto = nombreCompleto;
+        this.nombreCompleto = nombreCompleto;
         this.dni = dni;
         this.email = email;
         this.telefono = telefono;
@@ -15,7 +26,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente [id=" + id + ", NombreCompleto=" + NombreCompleto + ", dni=" + dni + ", email=" + email
+        return "Cliente [id=" + id + ", NombreCompleto=" + nombreCompleto + ", dni=" + dni + ", email=" + email
                 + ", telefono=" + telefono + "]";
     }
 
@@ -24,7 +35,7 @@ public class Cliente {
     }
 
     public String getNombreCompleto() {
-        return NombreCompleto;
+        return nombreCompleto;
     }
 
     public String getDni() {
@@ -38,7 +49,4 @@ public class Cliente {
     public String getTelefono() {
         return telefono;
     }
-
-    
-    
 }

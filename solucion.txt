@@ -1,0 +1,2 @@
+Cliente [id=1, NombreCompleto=Juan Pérez, dni=12345678A, email=juan.perez@mail.com, telefono=+34600123456]
+Cliente [id=4, NombreCompleto=Ana Torres, dni=23456789D, email=ana.torres@mail.com, telefono=+34600111222]
