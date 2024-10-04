@@ -1,6 +1,8 @@
 import java.io.IOException;
 import java.util.List;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class PruebaClientes {
 
     public static void main(String[] args) {

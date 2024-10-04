@@ -1,7 +1,10 @@
 import java.io.IOException;
 import java.util.List;
 
-public class App {
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class MainExportTxt {
 
     public static void main(String[] args) {
         GestorFicheros gestorFicheros = new GestorFicheros();

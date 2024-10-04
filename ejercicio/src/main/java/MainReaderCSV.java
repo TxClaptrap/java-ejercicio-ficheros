@@ -8,7 +8,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvValidationException;
 
-public class Main {
+public class MainReaderCSV {
     public static void main(String[] args) throws CsvValidationException {
         try (Reader reader = Files.newBufferedReader(Path.of("prueba.csv"));
              CSVReader csvReader = new CSVReaderBuilder(reader)
